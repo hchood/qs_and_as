@@ -27,3 +27,7 @@ gem 'jbuilder'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'faker'
+
+group :development, :test do
+  gem 'pry-rails'
+end
