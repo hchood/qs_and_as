@@ -7,16 +7,14 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
-
-gem 'sqlite3'
-
-
+gem 'pg'
+# gem 'sqlite3'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+gem 'jbuilder'
 
 # Use unicorn as the app server
 # gem 'unicorn'
