@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.4'
 
 gem 'rails', '4.2.0'
 
@@ -24,3 +25,9 @@ gem 'jbuilder'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+gem 'faker'
+
+group :development, :test do
+  gem 'pry-rails'
+end
